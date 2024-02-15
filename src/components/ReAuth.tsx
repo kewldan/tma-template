@@ -1,16 +1,7 @@
-'use client';
-
 import Typography from "@mui/joy/Typography";
-import React, {useEffect} from "react";
-import {useRouter} from "next/navigation";
+import React from "react";
 
 export default function ReAuth() {
-    const router = useRouter();
-
-    useEffect(() => {
-        router.refresh();
-    }, [router]);
-
     return (
         <div className='w-full'>
             <Typography level='h1'>
