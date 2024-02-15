@@ -21,7 +21,7 @@
     "lottie-react": "^2.4.0",
     "million": "^3.0.3",
     "react-icons": "^5.0.1",
-    "tma-jwt": "^1.0.6",
+    "tma-jwt": "^1.0.7",
     "zod": "^3.22.4"
   },
   "devDependencies": {
